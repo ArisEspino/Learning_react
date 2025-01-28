@@ -36,8 +36,8 @@ export const ShoppingPage = () => {
                     />
                 </ProductCard>
                 {/*Forma 2 de usar */}
-  
-  {/*              <ProductCard
+
+                <ProductCard
                     product={product}
                     className="bg-dark">
 
@@ -52,7 +52,7 @@ export const ShoppingPage = () => {
                         className="custom-buttons"
                     />
                 </ProductCard>
-*/}
+
                 {/*Usar directamente los styles y/o junto con el className */}
 
             </div>
