@@ -36,7 +36,8 @@ export const ShoppingPage = () => {
                     />
                 </ProductCard>
                 {/*Forma 2 de usar */}
-                <ProductCard
+  
+  {/*              <ProductCard
                     product={product}
                     className="bg-dark">
 
@@ -51,31 +52,8 @@ export const ShoppingPage = () => {
                         className="custom-buttons"
                     />
                 </ProductCard>
-
+*/}
                 {/*Usar directamente los styles y/o junto con el className */}
-
-                <ProductCard
-                    product={product}
-                    style={{
-                        backgroundColor: 'cyan'
-                    }}
-                >
-                    <ProductImage
-                        style={{
-                            boxShadow: '10px 10px 10px rgba(0,0,0,0.2)'
-                        }}
-
-                    />
-                    <ProductTitle
-                        style={{ color: "pink" }}
-                        title={'Robux'} />
-                    <ProductButtons
-                        style={{
-                            display: 'flex',
-                            justifyContent: 'end'
-                        }}
-                    />
-                </ProductCard>
 
             </div>
 
