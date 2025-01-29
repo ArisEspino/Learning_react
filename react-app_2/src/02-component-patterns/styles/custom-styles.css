@@ -6,7 +6,7 @@
     color: white;
 }
 
-.text-bold { 
+.text-bold {
     font-weight: bold;
 }
 
@@ -16,9 +16,16 @@
     border-radius: 20px
 }
 
-.custom-buttons button, .custom-buttons div{
+.custom-buttons button,
+.custom-buttons div {
     color: white;
     border-color: white;
 
+}
 
+
+.shopping-cart {
+    position: fixed;
+    top: 0px;
+    right: 10px;
 }
